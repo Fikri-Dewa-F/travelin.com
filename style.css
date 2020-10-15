@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url(https://asset.kompas.com/crops/90XbQ00RbbvvcKG3mQl2KJHsFNs=/0x0:1280x853/750x500/data/photo/2020/05/09/5eb6b04a2c063.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.utama {
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(42, 3, 180, 0.589);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.header-left {
+    line-height: 50px;
+}
+
+.logo {
+    padding-left: 10px;
+    margin-top: 5px;
+    float: left;
+    font-size: 30px;
+    color: rgba(94, 245, 212, 0.788);
+}
+
+span {
+    font-size: 25px;
+    color: rgba(41, 250, 205, 0.712);
+}
+
+.top-wrapper {
+    position: inline-block;
+    padding: 90px 0 120px 0;
+    text-align: center;
+    z-index: 0;
+    text-shadow: 1px 0.75px 0.5px black;
+    padding-bottom: 70px;
+}
+
+.top-wrapper h1 {
+    opacity: 0.9;
+    font-size: 30px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: rgb(113, 77, 245);
+    font-weight: bold;
+}
+
+.top-wrapper p {
+    opacity: 0.8;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    padding: 0 15px;
+    color: rgb(143, 177, 250);
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.login {
+    background-color: #239b76;
+    margin-right: 5px;
+}
+
+.signup {
+    background-color: rgba(0, 151, 118, 0.582);
+}
+
+.btn {
+    padding: 12px 24px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #3ba343;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    box-shadow: 4px 4px 2px #535353;
+}
+
+.btn:hover {
+    background-color: #359138;
+}
+
+.btn:active {
+    background-color: #359138;
+    box-shadow: 2px 2px 1px #1b1b1b;
+    transform: translateY(2px);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 130px;
+    background-color: rgba(32, 0, 148, 0.993);
+}
+
+#footer-span {
+    font-size: 15px;
+    color: rgba(41, 250, 205, 0.712);
+}
+
+.footer-logo {
+    padding-left: 10px;
+    margin-top: 10px;
+    float: left;
+    font-size: 20px;
+    color: rgba(94, 245, 212, 0.788);
+}
+
+.footer-list {
+    float: right;
+    padding-right: 20px;
+}
+
+.footer-list li {
+    padding-bottom: 1px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: blanchedalmond;
+    text-shadow: 0px 2px #535353;
+}
+
+a:active {
+    text-shadow: 0px 1px #1b1b1b;
+    transform: translateY(2px);
+}
